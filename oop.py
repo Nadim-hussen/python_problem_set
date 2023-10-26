@@ -30,14 +30,14 @@
 
 
 #########  @classmethod ###########
-class Student:
-    name = 'unknown' # class attribute
-    def __init__(self):
-        self.age = 20  # instance attribute
+# class Student:
+#     name = 'unknown' # class attribute
+    # def __init__(self):
+    #     self.age = 20  # instance attribute
 
-    @classmethod
-    def tostring(cls):
+    # @classmethod
+    # def tostring(cls):
         # print('Student Class Attributes: name=',cls.name,', age=', cls.age) # The class method can only access class attributes, but not the instance attributes. It will raise an error if trying to access the instance attribute in the class method.
-        print('Student Class Attributes: name=',cls.name)
+#         print('Student Class Attributes: name=',cls.name)
 
-Student.tostring() #calling class method
+# Student.tostring() #calling class method
