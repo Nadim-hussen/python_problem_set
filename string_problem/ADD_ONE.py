@@ -3,7 +3,6 @@ for _ in range(t):
     n = input()
     carry = True
     n_list = list(n)
-
     for i in range(len(n) - 1, -1, -1):
         if carry:
             if n_list[i] == '9':
